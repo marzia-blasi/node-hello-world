@@ -1,6 +1,8 @@
 //console.log("hello world");
-require("dotenv").config();
-//console.log(process.env); // remove this after you've confirmed it is working
+const dotenv = require("dotenv").config();
+//console.log(dotenv);
+
+console.log(process.env.SECRET_KEY); // remove this after you've confirmed it is working
 
 console.log("hello boolean ");
 console.log("dovrebbe funzionare");
